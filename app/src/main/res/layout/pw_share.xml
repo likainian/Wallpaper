@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="#11ffffff"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:background="#ededed"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:id="@+id/radio0"
+            android:checked="true"
+            android:tag="0"
+            style="@style/bottom_tag_style"
+            android:drawableTop="@drawable/umeng_socialize_qq_pressed"
+            android:text="qq"
+            />
+
+        <RadioButton
+            android:id="@+id/radio1"
+            android:tag="1"
+            style="@style/bottom_tag_style"
+            android:drawableTop="@drawable/umeng_socialize_qzone_pressed"
+            android:text="空间"/>
+
+        <RadioButton
+            android:id="@+id/radio2"
+            style="@style/bottom_tag_style"
+            android:tag="2"
+            android:drawableTop="@drawable/umeng_socialize_wechat_pressed"
+            android:text="微信"/>
+
+        <RadioButton
+            android:id="@+id/radio3"
+            style="@style/bottom_tag_style"
+            android:tag="3"
+            android:drawableTop="@drawable/umeng_socialize_wxcircle_pressed"
+            android:text="朋友圈" />
+    </RadioGroup>
+
+
+</LinearLayout>

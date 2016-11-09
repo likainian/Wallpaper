@@ -1,0 +1,82 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#eeeeee"
+    android:orientation="vertical"
+    tools:context="com.qf.administrator.wallpaper.fragment.MoreFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="@string/more"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/my_collect"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:background="@drawable/item_textcolor_background_selector"
+        android:drawableRight="@drawable/point"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="5dp"
+        android:text="我的收藏"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/my_download"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:background="@drawable/item_textcolor_background_selector"
+        android:drawableRight="@drawable/point"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="5dp"
+        android:text="我的下载"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/share"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/item_textcolor_background_selector"
+        android:drawableRight="@drawable/point"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="5dp"
+        android:text="推荐给好友"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/good"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:background="@drawable/item_textcolor_background_selector"
+        android:drawableRight="@drawable/point"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="5dp"
+        android:text="给个好评"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/set"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:background="@drawable/item_textcolor_background_selector"
+        android:drawableRight="@drawable/point"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="5dp"
+        android:text="设置"
+        android:textSize="20sp" />
+
+</LinearLayout>

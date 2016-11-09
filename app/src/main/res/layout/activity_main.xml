@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.qf.administrator.wallpaper.activity.MainActivity">
+    <FrameLayout
+        android:id="@+id/frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/radioGroup">
+    </FrameLayout>
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:background="#ededed"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:id="@+id/radio0"
+            android:checked="true"
+            android:tag="0"
+            style="@style/bottom_tag_style"
+            android:drawableTop="@drawable/bottom_recommend"
+            android:text="@string/recommend"
+            />
+
+        <RadioButton
+            android:id="@+id/radio1"
+            android:tag="1"
+            style="@style/bottom_tag_style"
+            android:drawableTop="@drawable/bottom_category"
+            android:text="@string/category"/>
+
+        <RadioButton
+            android:id="@+id/radio2"
+            style="@style/bottom_tag_style"
+            android:tag="2"
+            android:drawableTop="@drawable/bottom_search"
+            android:text="@string/search"/>
+
+        <RadioButton
+            android:id="@+id/radio3"
+            style="@style/bottom_tag_style"
+            android:tag="3"
+            android:drawableTop="@drawable/bottom_more"
+            android:text="@string/more" />
+    </RadioGroup>
+</RelativeLayout>

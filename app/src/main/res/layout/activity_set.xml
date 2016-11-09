@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_set"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.qf.administrator.wallpaper.activity.SetActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:padding="10dp"
+        android:background="#ffffff"
+        android:text="设置" />
+    <Button
+        android:layout_marginTop="2dp"
+        android:layout_width="match_parent"
+        android:paddingLeft="5dp"
+        android:id="@+id/heep"
+        android:gravity="left|center_vertical"
+        android:text="使用帮助"
+        android:textSize="20sp"
+        android:background="@drawable/item_textcolor_background_selector"
+        android:drawableRight="@drawable/point"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_marginTop="2dp"
+        android:layout_width="match_parent"
+        android:paddingLeft="5dp"
+        android:id="@+id/cache"
+        android:gravity="left|center_vertical"
+        android:text="清理缓存"
+        android:textSize="20sp"
+        android:background="@drawable/item_textcolor_background_selector"
+        android:drawableRight="@drawable/point"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_marginTop="2dp"
+        android:layout_width="match_parent"
+        android:paddingLeft="5dp"
+        android:id="@+id/version"
+        android:gravity="left|center_vertical"
+        android:text="检查版本"
+        android:textSize="20sp"
+        android:background="@drawable/item_textcolor_background_selector"
+        android:drawableRight="@drawable/point"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_marginTop="2dp"
+        android:layout_width="match_parent"
+        android:paddingLeft="5dp"
+        android:gravity="left|center_vertical"
+        android:id="@+id/suggest"
+        android:text="意见反馈"
+        android:textSize="20sp"
+        android:background="@drawable/item_textcolor_background_selector"
+        android:drawableRight="@drawable/point"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_marginTop="2dp"
+        android:layout_width="match_parent"
+        android:paddingLeft="5dp"
+        android:id="@+id/about"
+        android:gravity="left|center_vertical"
+        android:text="关于我们"
+        android:textSize="20sp"
+        android:background="@drawable/item_textcolor_background_selector"
+        android:drawableRight="@drawable/point"
+        android:layout_height="wrap_content" />
+</LinearLayout>
