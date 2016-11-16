@@ -66,6 +66,7 @@ public class RecommendFragment extends Fragment {
         url[1]=getArguments().getString("hot");
         url[2]=getArguments().getString("random");
         initData();
+
         initAdapter();
         tabLayout.setTabTextColors(Color.BLACK, Color.rgb(10,191,76));
         tabLayout.setSelectedTabIndicatorColor(Color.rgb(10,191,76));
